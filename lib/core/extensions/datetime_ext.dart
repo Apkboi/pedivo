@@ -7,6 +7,9 @@ extension DateTimeExt on DateTime {
 
   String get sessionDateLabel => DateFormat('MMM d').format(this);
 
+  String get sessionDateTimeLabel =>
+      '$sessionRelativeLabel, $sessionTimeLabel';
+
   String get sessionRelativeLabel {
     final now = DateTime.now();
     final date = DateTime(year, month, day);

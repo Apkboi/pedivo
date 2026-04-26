@@ -39,7 +39,7 @@ class DetailScreen extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
-                        '${state.session.title}\n${state.session.startTime.sessionRelativeLabel}, ${state.session.startTime.sessionTimeLabel}',
+                        '${state.session.title}\n${state.session.startTime.sessionDateTimeLabel}',
                         style: const TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w700,

@@ -68,7 +68,7 @@ class SessionCard extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       AppText(
-                        '${session.startTime.sessionRelativeLabel}, ${session.startTime.sessionTimeLabel}',
+                        session.startTime.sessionDateTimeLabel,
                         size: 13,
                         color: const Color(0xFF6E7591),
                       ),
