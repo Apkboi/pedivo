@@ -39,6 +39,10 @@ Output APK path:
 
 `build/app/outputs/flutter-apk/app-release.apk`
 
+Build artifact link:
+
+[Download APK (Google Drive)](https://drive.google.com/file/d/1ybJ2dGIc5j9wMdYB0bbqbj5ZsMeczTQd/view?usp=sharing)
+
 ## Trade-offs Made (Time Constraint)
 
 - Kept verification rules simple and deterministic (distance/duration/speed thresholds).
